@@ -1,0 +1,10 @@
+{
+    "autoload": {
+      "classmap": ["application/core"],
+      "psr-4": {"Wisprite\\Services\\":"./Wisprite/Services/"}
+     },
+    "require": {
+        "monolog/monolog": "*",
+        "symfony/class-loader": "*"
+    }
+}
