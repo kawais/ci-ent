@@ -1,10 +1,18 @@
 {
     "autoload": {
       "classmap": ["application/core"],
-      "psr-4": {"Wisprite\\Services\\":"./Wisprite/Services/"}
-     },
+      "psr-4": {
+        "Wisprite\\Services\\":"./src/Wisprite/Services/",
+        "Wisprite\\Modules\\":"./src/Wisprite/Modules/"
+        }
+    },
     "require": {
         "monolog/monolog": "*",
         "symfony/class-loader": "*"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "@stable",
+        "phpunit/phpunit": "@stable",
+        "kherge/box": "@stable"
     }
 }

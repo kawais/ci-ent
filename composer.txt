@@ -1,0 +1,7 @@
+更新autoload
+composer dumpauto
+更新vendor
+composer update/install
+
+php-cs-fixer升级
+php-cs-fixer self-update

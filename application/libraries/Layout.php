@@ -12,8 +12,8 @@
  *
  * 将views目录移动到application之外时，在控制器中指定新目录
  * 如移动到web根目录
- * $this->load->add_package_path(FCPATH.'');
- * $this->layout->setTplPath(FCPATH.'views/');
+ * $this->load->add_package_path(FCPATH.'');    //views父级目录位置
+ * $this->layout->setTplPath(FCPATH.'views/');  //views目录位置
  */
 class Layout
 {

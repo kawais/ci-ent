@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Wisprite\\Services\\' => array($baseDir . '/Wisprite/Services'),
+    'Wisprite\\Services\\' => array($baseDir . '/src/Wisprite/Services'),
+    'Wisprite\\Modules\\' => array($baseDir . '/src/Wisprite/Modules'),
+    'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
 );
