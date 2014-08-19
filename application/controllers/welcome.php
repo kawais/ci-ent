@@ -60,10 +60,6 @@ class welcome extends MY_Frontendcontroller
     {
         $this->module('User', 'sayHi', array('hi' => 'hello', array('name' => 'ci')));
     }
-
-
-
-
 }
 
 /* End of file welcome.php */

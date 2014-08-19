@@ -1,0 +1,1 @@
+@cmd /k "vendor\bin\phpunit.bat tests & pause & exit"
